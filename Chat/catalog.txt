@@ -1,0 +1,272 @@
+can you act as data structure definition catalog, you start from a to z in alphabatically order, you list 10 definitions at a time. You just provide name and definition within 250 words. when I say next you list another 10 definitions
+
+Array: A data structure that stores a collection of elements, where each element can be accessed by an index. The elements are stored contiguously in memory, and the index is used to calculate the memory address of each element.
+
+Binary Tree: A tree data structure where each node can have at most two children. The left child is always less than the parent, and the right child is always greater than the parent.
+
+Bloom Filter: A probabilistic data structure that tests whether an element is a member of a set, with a small probability of false positives. It uses an array of bits and a set of hash functions to store and check for membership of elements.
+
+B-Tree: A tree data structure that is optimized for storing large amounts of data on disk or in memory. It is self-balancing and has a variable number of children per node.
+
+Circular Buffer: A data structure that uses a fixed-size buffer as if it were connected end-to-end. When the buffer is filled, new data overwrites the oldest data in the buffer.
+
+Doubly Linked List: A linked list data structure where each node has a pointer to both the next and previous nodes in the list. This allows for efficient insertion and deletion of nodes at any point in the list.
+
+Graph: A data structure consisting of a set of vertices (or nodes) and a set of edges that connect the vertices. It is used to model relationships between objects.
+
+Hash Table: A data structure that stores a collection of key-value pairs, where each key is mapped to a unique index (or hash value) using a hash function. It provides fast access and insertion of key-value pairs.
+
+Heap: A binary tree data structure where each node has a value that is greater than or equal to (in a max heap) or less than or equal to (in a min heap) the values of its children. It is often used to implement priority queues.
+
+Linked List: A data structure where each element (or node) has a value and a pointer to the next element in the list. It allows for efficient insertion and deletion of elements at any point in the list.
+Queue: A data structure that stores a collection of elements, where the first element added is the first element retrieved (First-In, First-Out or FIFO). It is often used to implement a waiting list or a task scheduler.
+
+Radix Tree: A tree data structure that is used to store a set of keys where the keys are strings. It allows for efficient retrieval of keys based on their prefixes.
+
+Red-Black Tree: A self-balancing binary search tree data structure that maintains a balance between the height of the tree and the number of elements stored in the tree.
+
+Skip List: A data structure that is used to store a sorted list of elements. It uses a hierarchy of linked lists, where the lowest-level list contains all the elements, and each higher-level list contains only a fraction of the elements.
+
+Stack: A data structure that stores a collection of elements, where the last element added is the first element retrieved (Last-In, First-Out or LIFO). It is often used to implement function calls and undo operations.
+
+Suffix Array: A data structure that is used to store all the suffixes of a given string in lexicographic order. It allows for efficient retrieval of substrings of the original string.
+
+Suffix Tree: A tree data structure that is used to store all the suffixes of a given string. It allows for efficient retrieval of substrings of the original string.
+
+Trie: A tree data structure that is used to store a set of strings where each node represents a prefix of the strings. It allows for efficient retrieval and insertion of strings.
+
+Union-Find: A data structure that is used to keep track of a set of disjoint sets. It allows for efficient merging of sets and finding which set an element belongs to.
+
+Vector: A dynamic array data structure that can resize itself automatically as elements are added or removed. It allows for fast access to elements and efficient memory usage.
+Binary Heap: A complete binary tree data structure where each node is greater than or equal to (in a max heap) or less than or equal to (in a min heap) its children. It is often used to implement a priority queue.
+
+Cartesian Tree: A binary tree data structure that is created from a sequence of elements. It has the property that the inorder traversal of the tree yields the original sequence.
+
+Hash Array Mapped Trie (HAMT): A tree data structure that is used to implement a hash table. It is based on a trie data structure, but uses a hash function to map keys to the trie nodes.
+
+Interval Tree: A binary search tree data structure that is used to store a set of intervals. It allows for efficient retrieval of intervals that overlap with a given interval.
+
+Judy Array: A data structure that is used to store a sparse array of integers. It uses a trie-like structure to achieve fast access and low memory overhead.
+
+K-D Tree: A binary tree data structure that is used to store a set of points in k-dimensional space. It allows for efficient retrieval of the nearest neighbor of a given point.
+
+Range Tree: A tree data structure that is used to store a set of intervals or points in one or more dimensions. It allows for efficient retrieval of intervals or points that overlap with a given interval or fall within a given range.
+
+Rope: A data structure that is used to represent a text string as a balanced tree of substrings. It allows for efficient insertion, deletion, and retrieval of substrings.
+
+Splay Tree: A self-adjusting binary search tree data structure that optimizes for the most frequently accessed elements. It rearranges the tree to place frequently accessed elements near the root.
+
+Ternary Search Tree: A tree data structure that is used to store a set of strings. It allows for efficient retrieval of strings that match a given prefix.
+Van Emde Boas Tree: A tree data structure that is used to store a set of integers in a range from 0 to some maximum value. It allows for efficient retrieval of the minimum and maximum values, as well as fast insertion and deletion.
+
+Weighted Union-Find: A variant of the Union-Find data structure that is used to keep track of a set of disjoint sets. It allows for efficient merging of sets and finding which set an element belongs to, while maintaining a balance between the sizes of the sets.
+
+X-fast Trie: A data structure that is used to store a set of integers. It allows for efficient insertion, deletion, and retrieval of integers, as well as fast range queries.
+
+Y-fast Trie: A data structure that is used to store a set of integers. It allows for efficient insertion, deletion, and retrieval of integers, as well as fast predecessor and successor queries.
+
+Z-Order Curve: A space-filling curve that maps a two-dimensional space to a one-dimensional space. It is often used to enable fast search and retrieval of multidimensional data.
+
+Binary Indexed Tree (BIT): A data structure that is used to store a sequence of numbers. It allows for efficient retrieval of the sum of any contiguous subsequence of the numbers.
+
+Fibonacci Heap: A heap data structure that is used to implement a priority queue. It has a lower time complexity for some operations than binary heaps.
+
+Fusion Tree: A tree data structure that is used to store a set of points in k-dimensional space. It allows for efficient retrieval of the nearest neighbor of a given point.
+
+Interval Skip List: A skip list data structure that is used to store a set of intervals. It allows for efficient retrieval of intervals that overlap with a given interval.
+
+K-D B-Tree: A tree data structure that is used to store a set of points in k-dimensional space. It is a combination of a K-D Tree and a B-Tree, and allows for efficient retrieval of the nearest neighbor of a given point.
+Binary Space Partitioning (BSP) Tree: A tree data structure that is used to divide a space into convex regions using a sequence of hyperplanes. It is often used in computer graphics to enable fast rendering of 3D scenes.
+
+Compressed Suffix Array: A compressed data structure that represents a suffix array of a given string. It uses a combination of run-length encoding and bit packing to save space.
+
+Fenwick Tree: A data structure that is used to store a sequence of numbers. It allows for efficient retrieval of the sum of any prefix of the numbers.
+
+Hashed Array Tree (HAT): A tree data structure that is used to store a set of integers in a range from 0 to some maximum value. It allows for efficient retrieval of the i-th element in the set, as well as fast insertion and deletion.
+
+Leafy Tree: A binary tree data structure where each node has one or two child nodes. It is often used in persistent data structures to enable efficient copying and modification of the tree.
+
+Multiway Trie: A tree data structure that is used to store a set of strings. It allows for efficient retrieval and insertion of strings, as well as fast prefix queries.
+
+O-Tree: A tree data structure that is used to store a set of rectangles in two dimensions. It allows for efficient retrieval of rectangles that overlap with a given rectangle.
+
+Rank-Select Tree: A tree data structure that is used to store a bit vector. It allows for efficient retrieval of the rank (the number of set bits) and select (the index of the i-th set bit) of any bit in the vector.
+
+Suffix Tree Array: A compressed data structure that represents a suffix tree of a given string. It uses an array to represent the tree, and a combination of bit packing and wavelet trees to save space.
+
+ZFast Trie: A data structure that is used to store a set of integers. It allows for efficient insertion, deletion, and retrieval of integers, as well as fast range queries.
+AB Tree: A tree data structure that is used to store a set of intervals in one dimension. It allows for efficient retrieval of intervals that overlap with a given interval.
+
+Biased Binary Search Tree: A binary search tree data structure that is optimized for specific access patterns. It allows for fast access to frequently accessed elements, at the cost of slower access to other elements.
+
+Double-Ended Priority Queue: A data structure that stores a collection of elements and allows for efficient retrieval of both the smallest and largest elements in the collection.
+
+Fusion Forest: A forest data structure that is used to store a set of points in k-dimensional space. It allows for efficient retrieval of the nearest neighbor of a given point.
+
+Heterogeneous Tree: A tree data structure where each node can have a different number and type of child nodes. It is often used to represent hierarchical data structures where each node can have a different structure.
+
+Link-Cut Hash Tree: A dynamic tree data structure that allows for efficient operations such as path queries and tree rotations. It can be used to solve a wide range of problems, including dynamic connectivity and shortest path queries.
+
+Multidimensional Binary Search Tree: A tree data structure that is used to store a set of points in two or more dimensions. It allows for efficient retrieval of points that fall within a given range.
+
+Quadtree: A tree data structure that is used to store a set of points in two dimensions. It allows for efficient retrieval of points that fall within a given rectangular region.
+
+Range Minimum Query (RMQ) Data Structure: A data structure that is used to preprocess an array of numbers to allow for efficient retrieval of the minimum (or maximum) value in any subarray of the array.
+
+UB-Tree with Locking: A variant of the UB-Tree data structure that allows for concurrent access by multiple threads. It uses locking to ensure that only one thread can modify the data structure at a time.
+Van Emde Boas Layout: A layout data structure that is used to represent a binary tree as an array. It allows for efficient traversal and modification of the tree.
+
+W-Tree: A tree data structure that is used to store a set of intervals in one dimension. It allows for efficient retrieval of intervals that overlap with a given interval.
+
+X-fast Hashing: A hashing data structure that is used to store a set of integers. It allows for efficient insertion, deletion, and retrieval of integers, as well as fast range queries.
+
+Y-fast Hashing: A hashing data structure that is used to store a set of integers. It allows for efficient insertion, deletion, and retrieval of integers, as well as fast predecessor and successor queries.
+
+Zero-Suppressed Binary Decision Diagram (ZDD): A directed acyclic graph that is used to represent a set of subsets of a given set. It allows for efficient operations such as set union and intersection.
+
+Bloom Filter: A probabilistic data structure that is used to test whether an element is a member of a set. It has a high probability of returning true if the element is in the set, and a low probability of returning false if the element is not in the set.
+
+Cache-Oblivious Data Structure: A data structure that is designed to perform efficiently on a wide range of memory hierarchies, without knowledge of the specifics of the hierarchy.
+
+Dynamic Perfect Hashing: A hashing data structure that is used to store a set of integers. It allows for efficient insertion, deletion, and retrieval of integers, with no wasted space.
+
+Fusion List: A linked list data structure that is used to store a set of points in k-dimensional space. It allows for efficient retrieval of the nearest neighbor of a given point.
+
+Interval Heap: A variant of the binary heap data structure that is used to implement a priority queue. It allows for efficient retrieval of both the minimum and maximum elements in the queue.
+K-Dimensional Search Tree: A tree data structure that is used to store a set of points in k-dimensional space. It allows for efficient retrieval of the points that fall within a given distance of a query point.
+
+Link-Cut Forest: A forest data structure that allows for efficient operations such as path queries and tree rotations. It can be used to solve a wide range of problems, including dynamic connectivity and shortest path queries.
+
+Persistent Data Structure: A data structure that allows for the efficient creation of new versions of the structure without modifying the original structure. It is often used in situations where the history of the structure needs to be preserved.
+
+Rank Pairing Heap: A heap data structure that is used to implement a priority queue. It has a lower time complexity for some operations than binary heaps.
+
+Scapegoat Tree: A binary search tree data structure that is self-balancing. It allows for efficient insertion, deletion, and retrieval of elements, while maintaining a balance between the depth of the tree and the number of elements.
+
+Top Trees: A tree data structure that is used to represent a collection of trees. It allows for efficient queries on the collection as a whole, as well as on individual trees.
+
+Van Emde Boas Priority Queue: A priority queue data structure that is used to store a set of integers. It allows for efficient insertion, deletion, and retrieval of the minimum value.
+
+Weak Heap: A heap data structure that is used to implement a priority queue. It allows for efficient merging of two heaps, at the cost of a higher time complexity for some other operations.
+
+X-Fast Radix Tree: A tree data structure that is used to store a set of integers. It allows for efficient insertion, deletion, and retrieval of integers, as well as fast range queries.
+
+Y-Fast Radix Tree: A tree data structure that is used to store a set of integers. It allows for efficient insertion, deletion, and retrieval of integers, as well as fast predecessor and successor queries.
+
+Asymmetric Numeral Systems (ANS): A data compression method that is based on the idea of encoding a sequence of integers using a variable-length code. It allows for high compression ratios and fast decoding.
+
+Bit-Array Tries: A tree data structure that is used to store a set of strings. It allows for efficient retrieval and insertion of strings, as well as fast prefix queries.
+
+Ctrie: A tree data structure that is used to store a set of key-value pairs. It allows for efficient insertion, deletion, and retrieval of pairs, as well as fast range queries.
+
+Dynamic Binary Search Tree: A binary search tree data structure that allows for efficient insertion, deletion, and retrieval of elements, while maintaining a balance between the depth of the tree and the number of elements.
+
+Fibonacci Heap: A heap data structure that is used to implement a priority queue. It has a lower time complexity for some operations than binary heaps, at the cost of higher memory usage.
+
+Hopcroft's DFA Minimization Algorithm: An algorithm that is used to minimize the number of states in a deterministic finite automaton (DFA). It is often used in pattern matching algorithms.
+
+K-D-B Tree: A tree data structure that is used to store a set of points in k-dimensional space. It allows for efficient retrieval of the points that fall within a given distance of a query point, as well as fast insertion and deletion.
+
+Link-Cut Hash Forest: A forest data structure that allows for efficient operations such as path queries and tree rotations. It can be used to solve a wide range of problems, including dynamic connectivity and shortest path queries.
+
+Quad Heap: A heap data structure that is used to implement a priority queue. It allows for efficient retrieval of both the minimum and maximum elements in the queue.
+
+Sparse Table: A data structure that is used to preprocess an array of numbers to allow for efficient retrieval of the minimum (or maximum) value in any subarray of the array.
+
+X-Tree: A tree data structure that is used to store a set of intervals in one dimension. It allows for efficient retrieval of intervals that overlap with a given interval.
+
+Alpha-Beta Tree: A tree data structure that is used to store a set of intervals in one dimension. It allows for efficient retrieval of intervals that overlap with a given interval.
+
+Binary Indexed Tree (BIT): A data structure that is used to store a sequence of numbers. It allows for efficient retrieval of the sum of any prefix of the numbers, as well as fast updates of individual elements.
+
+Colored Range Tree: A tree data structure that is used to store a set of points in two dimensions. It allows for efficient retrieval of the points that fall within a given rectangular region, with the additional feature of storing a color associated with each point.
+
+Dominator Tree: A tree data structure that is used to represent the dominator relationship between nodes in a directed graph. It can be used to solve a wide range of problems, including finding the nearest common ancestor of two nodes in a directed acyclic graph (DAG).
+
+Finger Tree: A tree data structure that is used to store a sequence of elements. It allows for efficient retrieval and modification of elements at any position in the sequence.
+
+K-D-2 Tree: A tree data structure that is used to store a set of points in two dimensions. It allows for efficient retrieval of the points that fall within a given distance of a query point.
+
+Level Ancestor Tree: A tree data structure that is used to store a tree and allow for efficient retrieval of the k-th ancestor of a node, for any k.
+
+Range Tree: A tree data structure that is used to store a set of points in one dimension. It allows for efficient retrieval of the points that fall within a given interval.
+
+Skip List: A probabilistic data structure that is used to store a set of elements in sorted order. It allows for efficient insertion, deletion, and retrieval of elements, with a time complexity that is logarithmic in the size of the data structure.
+Two-Three Tree: A tree data structure that is used to store a set of elements in sorted order. It allows for efficient insertion, deletion, and retrieval of elements, while maintaining a balance between the depth of the tree and the number of elements.
+
+Adaptive Huffman Coding: A data compression method that is based on the idea of encoding a sequence of symbols using a variable-length code. It allows for high compression ratios and fast decoding.
+
+Cover Tree: A tree data structure that is used to store a set of points in k-dimensional space. It allows for efficient retrieval of the points that fall within a given distance of a query point.
+
+Dynamic Range Tree: A tree data structure that is used to store a set of points in one dimension. It allows for efficient retrieval of the points that fall within a given interval, while allowing for dynamic updates to the set of points.
+
+Fibonacci Coding: A data compression method that is based on the idea of encoding a sequence of integers using a variable-length code. It allows for high compression ratios and fast decoding.
+
+K-D-Tree with Compressed Pointers: A tree data structure that is used to store a set of points in k-dimensional space. It allows for efficient retrieval of the points that fall within a given distance of a query point, while using a smaller amount of memory than a traditional K-D-Tree.
+
+Layered Range Tree: A tree data structure that is used to store a set of points in two dimensions. It allows for efficient retrieval of the points that fall within a given rectangular region, while allowing for dynamic updates to the set of points.
+
+Patricia Trie: A tree data structure that is used to store a set of strings. It allows for efficient retrieval and insertion of strings, as well as fast prefix queries.
+
+Rope: A data structure that is used to store a sequence of elements. It allows for efficient retrieval and modification of elements at any position in the sequence, while allowing for dynamic updates to the sequence.
+
+Tiered Vector: A data structure that is used to store a sequence of elements. It allows for efficient retrieval and modification of elements at any position in the sequence, while using a smaller amount of memory than a traditional dynamic array.
+
+Adaptive Radix Tree: A tree data structure that is used to store a set of strings. It allows for efficient retrieval and insertion of strings, as well as fast prefix queries, while using a smaller amount of memory than a traditional Trie.
+
+Compressed Suffix Array: A data structure that is used to store the suffixes of a string. It allows for efficient retrieval of the suffixes that match a given pattern, while using a smaller amount of memory than a traditional Suffix Array.
+
+Double-Array Trie: A tree data structure that is used to store a set of strings. It allows for efficient retrieval and insertion of strings, as well as fast prefix queries, while using a smaller amount of memory than a traditional Trie.
+
+Fusion Tree: A tree data structure that is used to store a set of points in one dimension. It allows for efficient retrieval of the points that fall within a given interval, while allowing for dynamic updates to the set of points.
+
+Grouped Range Tree: A tree data structure that is used to store a set of points in two dimensions. It allows for efficient retrieval of the points that fall within a given rectangular region, with the additional feature of grouping the points by a specified attribute.
+
+Leafy Tree: A tree data structure that is used to store a set of elements in sorted order. It allows for efficient insertion, deletion, and retrieval of elements, while using a smaller amount of memory than a traditional binary search tree.
+
+Multi-Level Sampling: A data structure that is used to store a sequence of numbers. It allows for efficient retrieval of the sum of any prefix of the numbers, while using a smaller amount of memory than a traditional Binary Indexed Tree.
+
+Pairing Heap: A heap data structure that is used to implement a priority queue. It has a lower time complexity for some operations than binary heaps, at the cost of higher memory usage.
+
+Rank-Select Tree: A tree data structure that is used to store a sequence of bits. It allows for efficient retrieval of the rank (number of 1s) and select (position of the k-th 1) of a bit in the sequence.
+
+Y-Fast Trie: A tree data structure that is used to store a set of integers. It allows for efficient insertion, deletion, and retrieval of integers, as well as fast predecessor and successor queries, while using a smaller amount of memory than a traditional Trie.
+
+Adaptive Radix Tree: A tree data structure that is used to store a set of strings. It allows for efficient retrieval and insertion of strings, as well as fast prefix queries, while using a smaller amount of memory than a traditional Trie.
+
+Compressed Suffix Array: A data structure that is used to store the suffixes of a string. It allows for efficient retrieval of the suffixes that match a given pattern, while using a smaller amount of memory than a traditional Suffix Array.
+
+Double-Array Trie: A tree data structure that is used to store a set of strings. It allows for efficient retrieval and insertion of strings, as well as fast prefix queries, while using a smaller amount of memory than a traditional Trie.
+
+Fusion Tree: A tree data structure that is used to store a set of points in one dimension. It allows for efficient retrieval of the points that fall within a given interval, while allowing for dynamic updates to the set of points.
+
+Grouped Range Tree: A tree data structure that is used to store a set of points in two dimensions. It allows for efficient retrieval of the points that fall within a given rectangular region, with the additional feature of grouping the points by a specified attribute.
+
+Leafy Tree: A tree data structure that is used to store a set of elements in sorted order. It allows for efficient insertion, deletion, and retrieval of elements, while using a smaller amount of memory than a traditional binary search tree.
+
+Multi-Level Sampling: A data structure that is used to store a sequence of numbers. It allows for efficient retrieval of the sum of any prefix of the numbers, while using a smaller amount of memory than a traditional Binary Indexed Tree.
+
+Pairing Heap: A heap data structure that is used to implement a priority queue. It has a lower time complexity for some operations than binary heaps, at the cost of higher memory usage.
+
+Rank-Select Tree: A tree data structure that is used to store a sequence of bits. It allows for efficient retrieval of the rank (number of 1s) and select (position of the k-th 1) of a bit in the sequence.
+
+Y-Fast Trie: A tree data structure that is used to store a set of integers. It allows for efficient insertion, deletion, and retrieval of integers, as well as fast predecessor and successor queries, while using a smaller amount of memory than a traditional Trie.
+Binary Space Partitioning (BSP) Tree: A tree data structure that is used to partition a space into convex subspaces. It allows for efficient retrieval of the subspaces that intersect with a given query region.
+
+Cache-Oblivious Implicit Search Tree: A tree data structure that is used to store a set of key-value pairs. It allows for efficient insertion, deletion, and retrieval of pairs, while optimizing the use of the memory hierarchy.
+
+Compact Suffix Tree: A tree data structure that is used to store the suffixes of a string. It allows for efficient retrieval of the suffixes that match a given pattern, while using a smaller amount of memory than a traditional Suffix Tree.
+
+Hash Table: A data structure that is used to store a set of key-value pairs. It allows for efficient insertion, deletion, and retrieval of pairs, with an expected constant time complexity.
+
+Link-Cut Tree: A tree data structure that allows for efficient operations such as path queries and tree rotations. It can be used to solve a wide range of problems, including dynamic connectivity and shortest path queries.
+
+Multiway Search Tree: A tree data structure that is used to store a set of elements in sorted order. It allows for efficient insertion, deletion, and retrieval of elements, while allowing for a variable number of children for each node.
+
+Quadtree: A tree data structure that is used to store a set of points in two dimensions. It allows for efficient retrieval of the points that fall within a given rectangular region.
+
+Rolling Hash: A hash function that is used to hash a sliding window of a string. It allows for efficient computation of the hash value of a substring, given the hash value of the previous substring.
+
+Tiered Vector with Radix Sort: A data structure that is used to store a sequence of elements. It allows for efficient retrieval and modification of elements at any position in the sequence, while using a smaller amount of memory than a traditional dynamic array, and employing radix sort to speed up operations.
+
+Van Emde Boas Tree: A tree data structure that is used to store a set of integers. It allows for efficient insertion, deletion, and retrieval of integers, as well as fast predecessor and successor queries.
