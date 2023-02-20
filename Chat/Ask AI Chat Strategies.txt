@@ -1,0 +1,9 @@
+Reverse asking:
+
+Can you tell me in details how to ask you to create the above code with example?
+Member
+To ask ChatSonic to create the code outlined above, provide the following details in your request:
+Example:
+Type of code: C#
+Desired outcome: Send multiple packets to each endpoint in parallel
+Additional information: Utilize the System.Net.Sockets library to facilitate the sending of the packets
