@@ -1,0 +1,81 @@
+fun main() {
+    // If statement
+    var x = 10
+    if (x > 5) {
+        println("x is greater than 5")
+    }
+
+    // If-Else statement
+    var y = 3
+    if (y > 5) {
+        println("y is greater than 5")
+    } else {
+        println("y is less than or equal to 5")
+    }
+
+    // When statement
+    var z = 8
+    when (z) {
+        in 1..5 -> println("z is less than 5")
+        in 6..10 -> println("z is between 5 and 10")
+        else -> println("z is greater than 10")
+    }
+
+    // For loop
+    val numbers = arrayOf(1, 2, 3, 4)
+    for (i in numbers) {
+        println(i)
+    }
+
+    // While loop
+    var j = 1
+    while (j <= 5) {
+        println(j)
+        j++
+    }
+
+    // Do-While loop
+    var k = 1
+    do {
+        println(k)
+        k++
+    } while (k <= 5)
+
+    // Continue statement
+    for (l in 1..5) {
+        if (l == 3) {
+            continue
+        }
+        println(l)
+    }
+
+    // Break statement
+    for (m in 1..10) {
+        if (m == 5) {
+            break
+        }
+        println(m)
+    }
+
+    // Return statement
+    println(getResult())
+
+    // Label statement
+    outer@ for (n in 1..3) {
+        for (o in 1..3) {
+            if (n == 2 && o == 2) {
+                break@outer
+            }
+            println("$n $o")
+        }
+    }
+}
+
+fun getResult(): String {
+    val p = 8
+    return when (p) {
+        in 1..5 -> "p is less than 5"
+        in 6..10 -> "p is between 5 and 10"
+        else -> "p is greater than 10"
+    }
+}
